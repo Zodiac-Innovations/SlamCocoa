@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0CB01A1F2481E600A7419E /* SlamCocoa.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AA0CB0191F2481E600A7419E /* SlamCocoa.podspec */; };
 		AAB13F2F1F1B39800029F749 /* SlamCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB13F2D1F1B39800029F749 /* SlamCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAB13F4B1F1B39D00029F749 /* SlamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB13F4A1F1B39D00029F749 /* SlamButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA0CB0151F2481C800A7419E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AA0CB0161F2481C800A7419E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AA0CB0191F2481E600A7419E /* SlamCocoa.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SlamCocoa.podspec; sourceTree = "<group>"; };
 		AAB13F2A1F1B39800029F749 /* SlamCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlamCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB13F2D1F1B39800029F749 /* SlamCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlamCocoa.h; sourceTree = "<group>"; };
 		AAB13F2E1F1B39800029F749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +36,9 @@
 		AAB13F201F1B39800029F749 = {
 			isa = PBXGroup;
 			children = (
+				AA0CB0161F2481C800A7419E /* README.md */,
+				AA0CB0151F2481C800A7419E /* LICENSE */,
+				AA0CB0191F2481E600A7419E /* SlamCocoa.podspec */,
 				AAB13F2C1F1B39800029F749 /* SlamCocoa */,
 				AAB13F2B1F1B39800029F749 /* Products */,
 			);
@@ -125,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0CB01A1F2481E600A7419E /* SlamCocoa.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				AAB13F341F1B39800029F749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
