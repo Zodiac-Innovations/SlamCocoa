@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
 
   s.name         = "SlamCocoa"
   s.version      = "0.0.1"
-  s.summary      = "SlamCocoa is an Mac Cocoa Framework ."
+  s.summary      = "SlamCocoa is a Swift Closure based open source UI Framework for Mac Development."
   s.description  = ""
-  s.homepage     = "http://zodiacinnovations.com/SlamCocoa"
+  s.homepage     = "http://zodiacinnovations.com/slam.html"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
